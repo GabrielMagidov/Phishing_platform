@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 items per row */
+  gap: 20px;
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  margin-top: 0;
+}
+
+.product-item {
+  background-color: #0c0020;
+  padding: 10px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.product-image {
+  width: 220px;
+  height: 250px;
+  object-fit: fill;
+  object-position: center;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.discounted-price {
+  color: #e60000;
+  font-weight: bold;
+}
+
+.discount-percentage {
+  color: #009900;
+  font-weight: bold;
+}

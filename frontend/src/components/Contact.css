@@ -1,0 +1,46 @@
+#contact {
+  background-color: #0c0020;
+  padding: 20px;
+  text-align: center;
+  width: 100vw;
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#contact h2 {
+  margin-top: 0;
+  font-size: 2rem;
+}
+
+#contact a {
+  color: #e60000;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  #contact h2 {
+    font-size: 1.75rem;
+  }
+
+  #contact a {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #contact h2 {
+    font-size: 1.5rem;
+  }
+
+  #contact a {
+    font-size: 0.875rem;
+  }
+}

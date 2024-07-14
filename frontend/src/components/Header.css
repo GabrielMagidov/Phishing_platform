@@ -1,0 +1,30 @@
+.image-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #0c0020;
+}
+
+.image-row img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  border: 1px solid white;
+}
+
+@media (min-width: 768px) {
+  .image-row img {
+    max-width: 200px;
+    padding: 10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .image-row img {
+    max-width: 300px;
+  }
+}
